@@ -1,0 +1,68 @@
+{
+ "users": [
+   {
+     "id": 1,
+     "name": "John Doe",
+     "email": "john.doe@example.com",
+     "age": 30,
+     "city": "New York"
+   },
+   {
+     "id": 2,
+     "name": "Jane Smith",
+     "email": "jane.smith@example.com",
+     "age": 25,
+     "city": "Los Angeles"
+   },
+   {
+     "id": 3,
+     "name": "Bob Johnson",
+     "email": "bob.johnson@example.com",
+     "age": 35,
+     "city": "Chicago"
+   }
+ ],
+ "products": [
+   {
+     "id": 101,
+     "name": "Product A",
+     "price": 19.99,
+     "description": "A wonderful product for your needs."
+   },
+   {
+     "id": 102,
+     "name": "Product B",
+     "price": 29.99,
+     "description": "High-quality product with great features."
+   },
+   {
+     "id": 103,
+     "name": "Product C",
+     "price": 14.99,
+     "description": "Affordable and reliable product."
+   }
+ ],
+ "orders": [
+   {
+     "order_id": 1001,
+     "user_id": 1,
+     "products": [101, 102],
+     "total_price": 49.98,
+     "order_date": "2023-09-13"
+   },
+   {
+     "order_id": 1002,
+     "user_id": 2,
+     "products": [103],
+     "total_price": 14.99,
+     "order_date": "2023-09-14"
+   },
+   {
+     "order_id": 1003,
+     "user_id": 3,
+     "products": [101, 103],
+     "total_price": 34.98,
+     "order_date": "2023-09-15"
+   }
+ ]
+}
